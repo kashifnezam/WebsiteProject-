@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,700;0,900;1,400&display=swap');
+
+*{
+  margin: 0px;
+  border: 0px;
+  box-sizing: border-box;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+html{
+  font-size: 1vh
+}
+
+
+ /*     ------  1st Page -----    */
+ /*       Navigation     */
+header{
+  height: 100vh;
+  border: 1px solid #212121;
+  background-image: url('../images/bg3.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+header .navigation-bar{
+ /* border: 0.1rem solid yellow;*/
+  padding: 0px;
+  margin: 0.5em;
+  position: relative;
+}
+.logo{
+  margin: 0.5rem;
+  float: left;
+  font-size: 2.5rem;
+  letter-spacing: 0.2vh;
+}
+ .nav-bars{
+  float: right;
+  margin-top: 2.5rem;
+  padding: 0vh;
+  position: relative;
+}
+.nav{
+  display: inline-block;
+  text-align: right;
+  margin: 0.1rem;
+  
+}
+.nav-bars a:active{
+  border-bottom: 0.1rem solid #7171C6  ;
+  color: #00C78C;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.nav a{
+  padding: 0.5vh;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  letter-spacing: 0.18vh;
+  font-weight: 400;
+}
+.clear{
+  display: block;
+  clear: both;
+}
+
+ /*       head-content     */
+ .head-content{
+   position: absolute;
+   top: 30vh;
+   font-size: 2.5rem;
+   text-transform: uppercase;
+ }
+ .head-content .heading{
+   color: #FFFAF0;
+   letter-spacing: 0.3rem;
+   font-weight: 700;
+   padding-bottom: 2rem;
+ }
+.head-content p{
+   letter-spacing: 0.2rem;
+   padding-bottom: 2rem;
+   font-size: 1.5rem;
+   font-weight: 700;
+   color: #FFE1FF;
+   
+ }
+.head-content a, .btn{
+   padding: 1rem;
+   text-decoration: none;
+   background-color: #FFFAF0;
+   color: #00C78C;
+   font-weight: 700;
+   border-radius: 2rem;
+ }
+.head-content a:active, .btn:active{
+   letter-spacing: 0.2rem;
+   font-weight: 900;
+   color: #FFF5EE;
+   padding: 1.5rem;
+   background-color: #00C78C ;
+   font-size: 1.5rem;
+}
+/* ------ UTILITY CLASSES ---------*/
+.text-turquoiseblue{
+  color: #00C78C;
+}
+.text-floralwhite{
+  color: #FFFAF0;
+}
+.text-lightslateblue{
+  color: #8470FF;
+}
+.container{
+  width: 85vw;
+  margin: auto auto;
+  position: relative;
+}
+
+/* ------- 2nd Page -------*/
+
+.second-page{
+  text-align: center;
+  height: 100vh;
+  font-size: 2rem;
+  border: 2px solid #F5FFFA;
+  background-color: #F5FFFA;
+  
+}
+
+.row .img1 {
+  float: left;
+}
+.row .img2 , .row .text1{
+  float: right;
+}
+
+.row{
+  margin-top: 35%;
+  height: 25vh;
+  background-color: #F0F8FF;
+}
+.row .img1{
+  background-image: url('/../images/bg4.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 100%;
+}
+.row .img2{
+  background-image: url('/../images/bg5.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 100%;
+}
+
+
+.row .text1{
+  width: 50%;
+  margin: 0px;
+  padding: 1.5rem;
+  color: #00C78C;
+  font-weight: 600;
+  
+}
+.row .text2{
+  color: #00C78C;
+  width: 50%;
+  margin: 0px;
+  font-weight: 600;
+  padding: 1.5rem;
+}
