@@ -137,6 +137,7 @@ header .navigation-bar{
 }
 
 .row{
+  box-shadow: 0.4rem 0.3rem 1rem 0.5rem #b2b2b2 ;
   margin-top: 35%;
   height: 25vh;
   background-color: #F0F8FF;
@@ -173,4 +174,46 @@ header .navigation-bar{
   margin: 0px;
   font-weight: 600;
   padding: 1.5rem;
+}
+
+
+
+/* ------### Bottom Page ###-------*/
+
+.bottom-page{
+  text-align: left;
+  height: 40vh;
+  font-size: 2rem;
+  background-color: #242424;
+}
+
+.social-icons{
+  height: 5vh;
+  margin: 0rem;
+  
+}
+.icons img{
+  padding-right: 1rem;
+  height: 5vh;
+}
+
+
+.btm-row{
+padding: 2.5rem;
+}
+.btm-row1 h3 {
+  background-color: #1C1C1C;
+  font-size: 2.5rem;
+  margin-top: 0.5rem;
+  padding: 0.5rem 2rem ;
+  font-weight: 300;
+}
+.btm-row1 h3 a{
+  color: #FAFAD2;
+  text-decoration: none;
+}
+
+.btm-row1 h3 a:active{
+  font-weight: 600;
+  font-size: 3rem;
 }
