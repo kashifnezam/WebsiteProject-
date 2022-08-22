@@ -157,7 +157,7 @@ header .navigation-bar{
 
 .row .text1{
   width: 50%;
-  margin: 0px;
+  margin: 0rem;
   padding: 1.5rem;
   color: #00C78C;
   font-weight: 600;
@@ -166,7 +166,7 @@ header .navigation-bar{
 .row .text2{
   color: #00C78C;
   width: 50%;
-  margin: 0px;
+  margin: 0rem;
   font-weight: 600;
   padding: 1.5rem;
 }
@@ -186,24 +186,24 @@ header .navigation-bar{
 
 .bottom-page{
   text-align: left;
-  height: 40vh;
+  height: 38vh;
   font-size: 2rem;
   background-color: #242424;
 }
 
 .social-icons{
-  height: 5vh;
+  height: 4vh;
   margin: 0rem;
   
 }
 .icons img{
   padding-right: 1rem;
-  height: 5vh;
+  height: 4vh;
 }
 
 
 .btm-row{
-padding: 2.5rem;
+padding: 1.5rem;
 }
 .btm-row1 h3 {
   background-color: #1C1C1C;
@@ -229,10 +229,10 @@ padding: 2.5rem;
 }
 
 /*----------------------------------------/*
-/*-------> ABOUT PAGE <---------*/
+/*-------> Navigation<---------*/
 
 .bg-dark{
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
   background-image: radial-gradient( circle 321px at 8.3% 75.7%,  rgba(209,247,241,1) 0%, rgba(249,213,213,1) 81% );
 }
 .bg-dark a{
@@ -241,4 +241,36 @@ padding: 2.5rem;
   font-weight: 600;
 }
 
+/* ---------> About Us Page<---------*/
 
+.aboutus h1{
+  margin : 2rem;
+  font-size: 3rem;
+  letter-spacing: 0.3rem;
+  word-spacing: 0.4rem;
+  border-bottom: 0.5rem solid #7A8B8B;
+}
+.aboutus p{
+  font-style: italic;
+  margin : 1rem;
+  font-size: 1.6rem;
+}
+.sold-items{
+  margin: 3rem 2rem;
+}
+.item{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  background-image: linear-gradient( 174.2deg,  rgba(255,244,228,1) 7.1%, rgba(240,246,238,1) 67.4% );
+  font-weight: 700;
+  font-size: 1.3rem;
+  padding: 1rem;
+  margin: 1rem;
+}
+.sold-items .item span{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-image: linear-gradient( 114.2deg,  rgba(121,194,243,1) 22.6%, rgba(255,180,239,1) 67.7% );
+  float: right;
+}
+i{
+  padding: 0.5rem;
+}
