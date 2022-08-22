@@ -126,9 +126,8 @@ header .navigation-bar{
   text-align: center;
   height: 100vh;
   font-size: 2rem;
-  border: 2px solid #F5FFFA;
-  background-color: #F5FFFA;
-  
+  border: 0.01px solid rgba(181,188,243,1);
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(220,217,249,1) 0%, rgba(172,224,217,1) 89.8% );
 }
 
 .row .img1 {
