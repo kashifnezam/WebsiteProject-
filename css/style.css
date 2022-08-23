@@ -362,3 +362,41 @@ textarea {
   font-size: 2rem;
   color: #7B68EE;
 }
+/*----------------------------------------*/
+/*---------Media Queries----------------*/
+
+@media(min-width:1150px){
+  html {
+    font-size: 17px;
+    }
+  .container {
+  width: 50vw;
+  margin: auto auto;
+  position: relative;
+  }
+    
+    .row {
+  box-shadow: 0rem 0rem 1rem 0.5rem #9c9c9c;
+  margin: 5% auto;
+  height: 31vh;
+  background-color: #f0f8ff;
+}
+.bottom-page {
+  text-align: left;
+  height: 55vh;
+  font-size: 2rem;
+  background-color: #242424;
+  }
+  
+.second-page {
+  text-align: center;
+  height: 73vh;
+  font-size: 2rem;
+  border: 0.01px solid rgba(181, 188, 243, 1);
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(220, 217, 249, 1) 0%,
+    rgba(172, 224, 217, 1) 89.8%
+  );
+}
+}
