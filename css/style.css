@@ -243,14 +243,15 @@ padding: 1.5rem;
 
 /* ---------> About Us Page<---------*/
 
-.aboutus h1{
+.headings h1{
   margin : 2rem;
   font-size: 3rem;
   letter-spacing: 0.3rem;
   word-spacing: 0.4rem;
   border-bottom: 0.5rem solid #7A8B8B;
 }
-.aboutus p{
+/*------------heading content----------*/
+.headings p{
   text-align: right;
   font-style: italic;
   padding: 1rem;
@@ -264,6 +265,7 @@ padding: 1.5rem;
 }
 
 
+/*----------items downloads------------*/
 .item{
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   background-image: linear-gradient( 174.2deg,  rgba(255,244,228,1) 7.1%, rgba(240,246,238,1) 67.4% );
@@ -272,6 +274,8 @@ padding: 1.5rem;
   padding: 1rem;
   margin: 1.5rem;
 }
+
+/*----------------------------------------*/
 .sold-items .item span{
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   background-image: linear-gradient( 114.2deg,  rgba(121,194,243,1) 22.6%, rgba(255,180,239,1) 67.7% );
@@ -279,5 +283,40 @@ padding: 1.5rem;
 }
 i{
   padding: 0.5rem;
+}
+
+
+/*----------contact form--------------*/
+
+.bg-contact{
+  border: 0.0000001px solid #F0F8FF;
+  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+}
+
+
+.contacts{
+  text-align: center;
+  height: 50vh;
+}
+.form input, textarea{
+  text-align: center;
+  outline-color: #B0E2FF;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  padding: 1rem;
+  font-size: 2rem;
+  font-style: italic;
+  width: 80%; 
+  margin: 1.3rem;
+  border-radius: 2rem;
+  resize: none;
+  background-color: #FFFAFA;
+}
+
+.sbt{
+  font-size: 2rem;
+  margin: 2rem;
+  padding: 2rem;
+  
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 
