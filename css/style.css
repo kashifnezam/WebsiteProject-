@@ -81,13 +81,13 @@ header .navigation-bar {
 }
 .head-content p {
   letter-spacing: 0.2rem;
-  padding-bottom: 11rem;
+  padding-bottom: 10rem;
   font-size: 1.5rem;
   font-weight: 700;
   color: #ffe1ff;
 }
 .head-content a {
-  padding: 2rem;
+  padding: 1rem;
   text-decoration: none;
   background-color: #fffaf0;
   color: #00c78c;
@@ -112,6 +112,17 @@ header .navigation-bar {
   position: relative;
 }
 
+.btn {
+  padding: 1.1rem;
+  text-decoration: none;
+  background-color: #c1cdcd;
+  color: #8b5f65;
+  font-weight: 700;
+  box-shadow: 0px 0px 2px 0px #b0b0b0;
+  border-radius: 1rem;
+}
+
+
 /* ------- 2nd Page -------*/
 
 .second-page {
@@ -129,10 +140,13 @@ header .navigation-bar {
 .row .img1 {
   float: left;
 }
+
 .row .img2,
 .row .text1 {
   float: right;
 }
+
+
 
 .row {
   box-shadow: 0rem 0rem 1rem 0.5rem #9c9c9c;
@@ -160,9 +174,9 @@ header .navigation-bar {
 .row .text1 {
   width: 50%;
   margin: 0rem;
-  padding: 1.5rem;
   color: #00c78c;
   font-weight: 600;
+  padding: 1.5rem;
 }
 .row .text2 {
   color: #00c78c;
@@ -170,15 +184,6 @@ header .navigation-bar {
   margin: 0rem;
   font-weight: 600;
   padding: 1.5rem;
-}
-.btn {
-  padding: 1rem;
-  text-decoration: none;
-  background-color: #c1cdcd;
-  color: #8b5f65;
-  font-weight: 700;
-  box-shadow: 0px 0px 2px 0px #b0b0b0;
-  border-radius: 1rem;
 }
 
 /* ------### Bottom Page ###-------*/
@@ -362,12 +367,11 @@ textarea {
   font-size: 2rem;
   color: #7B68EE;
 }
-/*----------------------------------------*/
-/*---------Media Queries----------------*/
 
-@media(min-width:1150px){
+
+@media(min-width:1000px){
   html {
-    font-size: 17px;
+    font-size: 1.7vh;
     }
   .container {
   width: 50vw;
@@ -378,7 +382,7 @@ textarea {
     .row {
   box-shadow: 0rem 0rem 1rem 0.5rem #9c9c9c;
   margin: 5% auto;
-  height: 31vh;
+  height: 42vh;
   background-color: #f0f8ff;
 }
 .bottom-page {
@@ -390,7 +394,7 @@ textarea {
   
 .second-page {
   text-align: center;
-  height: 73vh;
+  height: 100vh;
   font-size: 2rem;
   border: 0.01px solid rgba(181, 188, 243, 1);
   background-image: radial-gradient(
@@ -398,5 +402,16 @@ textarea {
     rgba(220, 217, 249, 1) 0%,
     rgba(172, 224, 217, 1) 89.8%
   );
-}
+  }
+
+.contacts {
+  text-align: center;
+  height: 80vh;
+  }
+  
+.head-content p {
+  letter-spacing: 0.2rem;
+  padding-bottom: 5rem;
+  }
+
 }
